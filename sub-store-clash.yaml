@@ -189,6 +189,7 @@ proxy-groups:
   - name: 自动选择
     type: url-test
     include-all: true
+    exclude-type: "direct"
     url: 'http://www.apple.com/library/test/success.html'
     interval: 300
     tolerance: 10
